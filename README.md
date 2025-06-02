@@ -33,6 +33,80 @@
     <ol>
       <li>✅ Concept Design</li>
       <li>✅ Token Deployment</li>
+      body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0a0a0a;
+  color: #f0d878;
+  scroll-behavior: smooth;
+}
+
+header.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: radial-gradient(#1a1a1a, #000);
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+  color: #ffd700;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  color: #cccccc;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 10px 20px;
+  background: #ffd700;
+  color: #000;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 2rem;
+  border-bottom: 2px solid #ffd700;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+.gallery {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 200px;
+  border: 2px solid #ffd700;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #111;
+  color: #555;
+  font-size: 0.9rem;
+}
+      
       <li>🔄 NFT Collection Launch</li>
       <li>🔜 Marketplace Integration</li>
       <li>🔜 DAO Governance</li>
